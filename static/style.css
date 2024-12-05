@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap');
+
+body {
+  background-color: #e2fcff; 
+}
+
+.section {
+  padding: 20px;
+  background-color: #e3f2fd; 
+}
+
+.bubbly-title {
+  font-family: 'Baloo 2', cursive;
+  color: #3498db;
+  font-size: 3rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: -40px; 
+  left: 10px; 
+  background: linear-gradient(90deg, #49d2ff, #98f3ff);
+  background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
+
+.bubbly-subtitle {
+  font-family: 'Baloo 2', cursive;
+  color: #3498db;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
+  position: absolute;
+  top: 40px; 
+  left: 10px; 
+  background: linear-gradient(90deg, #49d2ff, #98f3ff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button-container {
+  text-align: right; /* Aligns the button to the right */
+  padding: 10px;     /* Optional: Adds some spacing */
+}
+
+.button {
+  display: inline-block; /* Ensures the button behaves like an inline element */
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #49d1ffa8;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #49d1ffcf;
+}
