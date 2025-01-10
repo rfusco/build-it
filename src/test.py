@@ -1,3 +1,4 @@
 from handleGemini import generateResponse
+from serveTweakBar import serveTweakBar
 
-print(generateResponse("hello gemini"))
+print(serveTweakBar())
